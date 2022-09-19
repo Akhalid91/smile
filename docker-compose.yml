@@ -4,7 +4,6 @@ services:
     build: .
     command: npm start
     volumes:
-      - ./src:/usr/app/
       - /usr/app/node_modules
     ports:
       - 80:8080
